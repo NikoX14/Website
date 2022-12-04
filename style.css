@@ -1,0 +1,53 @@
+body{
+  background-color: #222831;
+  font-family: 'Montserrat', sans-serif;
+  margin:auto;
+
+}
+
+h1{
+  color: #EEEEEE;
+}
+
+hr{
+  border-top: 3px solid #393E46;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+/* ------------Navigation------------ */
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: #EEEEEE;
+  background-color: #222831;
+  font-size: 20px;
+  margin: 10px;
+}
+
+a:hover{
+  color: #00ADB5;
+
+}
+
+.active {
+  color: #00ADB5;
+}
+
+ul {
+  list-style-type: none;
+  margin: 8px;
+  padding: 0;
+}
+
+.social{
+  float: right;
+  margin: auto;
+}
+/*------------------------------------*/
