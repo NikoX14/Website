@@ -1,5 +1,5 @@
 .contact{
-    color: white;
+    color: #EEEEEE;
     text-align: center;
 }
 
@@ -17,7 +17,7 @@ input[type=text], select, textarea {
 
 input[type=submit] {
   background-color: #04AA6D;
-  color: white;
+  color: #EEEEEE;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
