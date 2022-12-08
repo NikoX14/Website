@@ -8,16 +8,18 @@
     <script src="https://kit.fontawesome.com/55bb265c59.js" crossorigin="anonymous"></script>
     <title>Nikolaos Benashvili</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact-style.css">
     <link rel="icon" href="images/favicon.ico">
   </head>
   <body>
+    <!-- NAVIGATION -->
     <header>
       <ul class="nav">
         <li><a href="index.html">Home</a></li>
         <li><a href="education.html">Education</a></li>
         <li><a href="hobbies.html">Hobbies</a></li>
         <li><a href="contact.html" class="active">Contact</a></li>
-        <li><a href="about-me.html">About</a></li>
+        <li><a href="about-me.html">About Me</a></li>
       </ul>
 
       <ul class="social">
@@ -29,6 +31,49 @@
       <br>
       <hr>
     </header>
+    <!-- END OF NAVIGATION -->
 
+
+    <!-- CONTACT INFORMATION -->
+    <div class="contact">
+      <div class="container">
+        <h3>Contact Form</h3> 
+        <form action="mailto:nikopc78@gmail.com" method="post"></form>
+
+          <label for="fname">First Name</label>
+          <br>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <br>
+
+
+          <label for="lname">Last Name</label>
+          <br>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <br>
+
+
+          <label for="email">Your Email</label>
+          <br>
+          <input type="text" id="email" name="email" placeholder="Your email..">
+          <br>
+
+
+          <label for="subject">Subject</label>
+          <br>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <br>
+
+
+          <input type="submit" value="submit" onclick="submit()">
+
+          <h1 style="color:white;" id="out"></h1>
+        </form>
+      </div>
+    </div>
+
+    <!-- END OF CONTACT INFORMATION -->
+
+
+    <script src="contact.js"></script>
   </body>
 </html>
