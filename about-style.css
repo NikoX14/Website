@@ -7,9 +7,15 @@
 .about-me p{
     font-size:larger;
 }
-.about-me a {
+#country{
     text-decoration: underline ;
     margin: auto;
     width: 5rem;
+}
+
+#iee{
+    text-decoration: underline;
+    margin: auto;
+    width: 2rem;
 }
 
