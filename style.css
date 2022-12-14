@@ -52,17 +52,3 @@ ul {
 }
 /*------------------------------------*/
 
-
-/* ------------------INFO------------------ */
-.info{
-  text-align: center;
-  justify-content: center;
-}
-
-#name{
-  margin-top: 3rem;
-}
-
-#image{
-  width: 250px;
-}

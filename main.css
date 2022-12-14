@@ -1,0 +1,23 @@
+.info{
+    color: #EEEEEE;
+    text-align: center;
+    margin: auto;
+    font-size:small;
+}
+
+.name {
+    margin-top: 2rem;
+}
+
+#intro{
+    font-size: 2rem;
+}
+
+#image {
+    width: 250px;
+    margin-top: 0.8rem;
+}
+
+#welcome{
+    padding: 15px;
+}

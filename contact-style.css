@@ -20,8 +20,10 @@ input[type=submit] {
   color: #EEEEEE;
   padding: 12px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 7px;
   cursor: pointer;
+  font-size: medium;
+  font-family: 'Montserrat', sans-serif;
 }
 
 input[type=submit]:hover {

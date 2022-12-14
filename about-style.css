@@ -6,9 +6,13 @@
 
 .about-me p{
     font-size:larger;
+    padding: 13px;
+}
+.about-me a{
+    padding: 15px;
 }
 #country{
-    text-decoration: underline ;
+    text-decoration: underline;
     margin: auto;
     width: 5rem;
 }

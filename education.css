@@ -1,0 +1,24 @@
+.education{
+    color: #EEEEEE;
+    text-align:center;
+    margin: auto;
+}
+
+.education h4{
+    font-size: x-large;
+}
+
+.education p{
+    font-size:larger;
+}
+.primary, .secondary , .high, .university{
+    padding: 15px;
+    border: 1px solid #EEEEEE;
+    width: 20rem;
+    margin: auto;
+}
+
+.university a{
+    padding: 0;
+    text-decoration: underline;
+}

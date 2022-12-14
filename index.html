@@ -8,9 +8,10 @@
     <script src="https://kit.fontawesome.com/55bb265c59.js" crossorigin="anonymous"></script>
     <title>Nikolaos Benashvili</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="favicon.ico">
   </head>
-  <body>
+  <body onload="timer()">
     <!-- NAVIGATION -->
     <header>
       <ul class="nav">
@@ -31,11 +32,17 @@
       <hr>
     </header>
     <!-- END OF NAVIGATION -->
+
+    <!-- INFO -->
     <div class="info">
-      <img src="images/insta-modified.png" alt="image" id="image">
-      <h1 id="name">Nikolaos Benashvili</h1>
+      <img src="insta-modified.png" alt="image" id="image">
+      <div class="name">
+        <h1 id="intro">Hi,</h1>
+        <h1 id="animation"></h1> 
+        <h3 id="welcome">Welcome to my personal site!</h3>
+      </div>
     </div>
-    
+    <!-- END OF INFO -->
 
     <script src="index.js" charset="utf-8"></script>
   </body>

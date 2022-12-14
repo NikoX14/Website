@@ -5,27 +5,29 @@ var text=document.getElementById("subject");
 
 function submit(){
     var submitOk=true;
-    if(fname.value.length<=0){
+
+    if((fname.value.length<=0) && (submitOk===true)){
         alert("Invalid First Name");
         submitOk = false;
-        console.log("fname");
     }
 
-    if(lname.value.length<=0){
+    if((lname.value.length<=0) && (submitOk===true)){
         alert("Invalid Last Name");
         submitOk = false;
-        console.log("lname");
     }
     
-    if(email.value.indexOf('@')==-1){
+    if((email.value.indexOf('@')==-1) && (submitOk===true)){
         alert("Invalid e-mail!");
         submitOk = false;
     }
     
-    if(text.value.length<=0){
+    if((text.value.length<=0) && (submitOk===true)){
         alert("Please write something");
         submitOk = false;
-        console.log("text");
+    }
+    if((text.value.length>100) && (submitOk==true)){
+        alert("Over the 100 character limit");
+        submitOk = false;
     }
     
     
